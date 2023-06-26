@@ -7,6 +7,7 @@ import jakarta.persistence.*;
 public class Producto {
     @Id
     @Column
+    @PrimaryKeyJoinColumn
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
