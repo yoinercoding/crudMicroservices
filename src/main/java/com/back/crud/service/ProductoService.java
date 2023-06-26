@@ -2,13 +2,13 @@ package com.back.crud.service;
 
 import java.util.List;
 
-import com.back.crud.entity.Producto;
+import com.back.crud.entities.Producto;
 import com.back.crud.repository.ProductoRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.beans.factory.annotation.Autowired;
 
 @Service
-public class ProductoServiceImp implements ProductoService{
+public class ProductoService implements IProductoService {
 
     @Autowired
     private ProductoRepository repository;

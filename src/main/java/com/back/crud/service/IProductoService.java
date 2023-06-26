@@ -1,10 +1,10 @@
 package com.back.crud.service;
 
-import com.back.crud.entity.Producto;
+import com.back.crud.entities.Producto;
 import java.util.List;
 
 
-public interface ProductoService {
+public interface IProductoService {
 
     List<Producto>list();
     List<Producto>listByOrderPrice();

@@ -1,6 +1,6 @@
 package com.back.crud.repository;
 
-import com.back.crud.entity.Producto;
+import com.back.crud.entities.Producto;
 import org.springframework.data.repository.Repository;
 import java.util.List;
 
