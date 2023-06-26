@@ -1,2 +1,13 @@
-package com.back.crud.service;public interface IProveedorService {
+package com.back.crud.service;
+
+import com.back.crud.entities.Proveedor;
+import java.util.List;
+public interface IProveedorService {
+
+    List<Proveedor>list();
+    Proveedor listId(int id);
+    Proveedor add(Proveedor p);
+    Proveedor edit(Proveedor p);
+    Proveedor delete(int id);
+
 }
