@@ -10,12 +10,12 @@ import org.mockito.MockitoAnnotations;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
-public class controllerTest {
+public class productoControllerTest {
     @Mock
     private ProductoRepository repository;
 
     @InjectMocks
-    private controllerTest controllerTest;
+    private productoControllerTest controllerTest;
 
     @BeforeEach
     public void setUp() {

@@ -18,7 +18,7 @@ public class Proveedor {
     private String email;
 
     @Column
-    private int phone;
+    private String phone;
 
     @Column
     private String address;
@@ -47,16 +47,16 @@ public class Proveedor {
         this.email = email;
     }
 
-    public int getPhone() {
+    public String getPhone() {
         return phone;
     }
 
-    public void setPhone(int phone) {
+    public void setPhone(String phone) {
         this.phone = phone;
     }
 
     public String getAddress() {
-        return getAddress();
+        return address;
     }
 
     public void setAddress(String address) {
