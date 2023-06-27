@@ -1,4 +1,4 @@
-package com.back.crud.service;
+package com.back.crud.services.Proveedor;
 
 import com.back.crud.entities.Proveedor;
 import java.util.List;

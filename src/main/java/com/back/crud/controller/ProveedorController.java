@@ -1,6 +1,6 @@
 package com.back.crud.controller;
 import com.back.crud.entities.Proveedor;
-import com.back.crud.service.IProveedorService;
+import com.back.crud.services.Proveedor.IProveedorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.repository.query.Param;
 import org.springframework.web.bind.annotation.*;
