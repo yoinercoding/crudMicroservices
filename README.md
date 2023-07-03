@@ -1,2 +1,1 @@
-# CrudChallenge
-Java + SpringBoot + h2 Database
+Java Crud Microservices
